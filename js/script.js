@@ -240,7 +240,7 @@ nbtn.addEventListener("click", (el) => {
         el.preventDefault()
         //console.log(messages[0]);
         errorelement.innerText = messages.join(', ')
-        //alert(messages)
+        alert(messages)
 
     }
     el.preventDefault();
